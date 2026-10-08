@@ -6,7 +6,7 @@
 
 ## Запуск
 
-Распакуйте весь архив `Releases/FairyBeer-Windows.zip` и запустите `FairyBeer.exe`. Исполняемый файл работает вместе с папками и библиотеками из архива. Unity для запуска не требуется.
+Скачайте [Windows-сборку 2.2.0](https://github.com/neonkitts/Probnyy-proekt-Unity/releases/tag/v2.2.0), распакуйте весь архив `FairyBeer-Windows.zip` и запустите `FairyBeer.exe`. Исполняемый файл работает вместе с папками и библиотеками из архива. Unity для запуска не требуется.
 
 Для работы с исходниками откройте корень проекта в Unity **6000.4.7f1**, затем сцену `Assets/Scenes/Island.unity`. Меню редактора `Chibi → Build Windows game` проверяет проект и собирает Windows-версию.
 
