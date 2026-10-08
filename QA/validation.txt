@@ -1,0 +1,1 @@
+PASS: 113936 assertions. 100 seeds; vine counts; obstacle clearances; gap bounds; determinism; lives; movement; grounding; keyboard inversion regression; gamepad isolation; opposing keys; drift dead zone; jump trajectory; standing collision; crouch clearance; bottle attack; art.

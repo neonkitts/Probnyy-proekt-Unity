@@ -1,0 +1,25 @@
+/Library/
+/Builds/
+*.settings.json
+/QA/current/
+/Temp/
+/Obj/
+/Logs/
+/UserSettings/
+# Keep the portfolio build archive, ignore Unity's extracted build folder.
+/Builds/Windows/*_Data/
+/Builds/Windows/D3D12/
+/Builds/Windows/MonoBleedingEdge/
+/Builds/Windows/UnityCrashHandler64.exe
+/Builds/Windows/UnityPlayer.dll
+/Builds/Windows/dstorage*.dll
+/Builds/Windows/*.save.json
+/Builds/Windows/*.log
+/Builds/Windows/Chibi.exe
+/Chibi.zip
+/FairyBeer.zip
+/QA/*.png
+/QA/*.log
+/QA/input-fix/*.png
+/QA/input-fix/*.log
+/Library/
