@@ -1,23 +1,15 @@
-# Fairy Beer — Chibi
+# Fairy Beer — portfolio snapshot
 
-Fairy Beer is a pixel-art 2D platformer built in Unity 6. The player guides a tipsy fairy across the alien island of the Drunken Cuttlefish, where every direction is reversed and the route changes on each new attempt.
+An educational 2D platformer made with Unity 6 and C# for Windows x64. The fairy crosses a procedurally varied island with reversed movement controls.
 
 ![Gameplay](Portfolio/gameplay.png)
 
-## Portfolio snapshot
+- [Download the Windows build (2.2.0)](https://github.com/neonkitts/Probnyy-proekt-Unity/releases/tag/v2.2.0)
+- [Read the current project overview and source guide](README.md)
+- [See more screenshots](Portfolio)
 
-- Concept and requirements: Zlatoslava. Implementation and production assistance: Codex. This is a learning project, not a claim of independent professional experience.
-- Engine: Unity 6000.4.7f1, Windows x64
-- Visual direction: high-detail 16-bit pixel art, blue willow forest, pink crystal earth, peach and mint obstacles, sakura tree-house finale
-- Playtime target: approximately 20 minutes for the full route, preceded by an optional two-minute tutorial
-- Controls: A/Left moves right; D/Right moves left; S/Down jumps; W/Up crouches; Space/J swings the bottle
+**Contribution:** Zlatoslava Manko defined the concept, gameplay and visual requirements, selected references and reviewed the result. Codex assisted with code implementation, checks and materials. This is a learning project, not independently developed commercial work.
 
-## Systems
+**Technical highlights:** seeded obstacle generation, fixed-step movement, inverted input, enemies, checkpoints, JSON saves and editor validation. The code is concentrated in [ChibiGame.cs](Assets/Scripts/ChibiGame.cs) and [ChibiPresentation.cs](Assets/Scripts/ChibiPresentation.cs); splitting these systems into smaller components is a next step.
 
-The game combines a deterministic seeded map generator with dense obstacle groups, overhead blocks, lower blocks, flowering vines, healing bottles, pterodactyl dives, checkpoint lanterns, three lives and fog debuffs after the first two deaths. The final route ends at a sakura tree-house and a dedicated ending scene.
-
-## Technical notes
-
-Keyboard input is intentionally isolated from Unity's legacy axis bindings so the reversed A/D controls cannot cancel themselves out. Gamepad axes use separate bindings with a dead zone. The project includes automated assertions for generation, collision clearance, jumping, crouching, bottle attacks, life loss and the input regression.
-
-The latest Windows build is `Builds/Windows/FairyBeer.exe`. `README.md` describes version 2.2.0, including wooden pixel UI, graphics settings, a protected 120-second tutorial, eight-frame enemies and swinging vines. `QA/INPUT_FIX_RU.md` documents the earlier input investigation.
+The [validation log](QA/validation.txt) records automated checks over 100 seeds. The released Windows build was launched and an accelerated route to the ending was checked. A full manual playthrough and physical gamepad input still need testing.
