@@ -1,17 +1,7 @@
-# Материалы для GitHub
+# GitHub: материалы проекта
 
-Название проекта на странице: **Пробный проект Unity — Fairy Beer**.
+Профиль опубликован в [neonkitts/neonkitts](https://github.com/neonkitts/neonkitts/blob/main/README.md); игру можно открыть в [Probnyy-proekt-Unity](https://github.com/neonkitts/Probnyy-proekt-Unity). Актуальное описание и запуск — в [README.md](../README.md), сборка — на [странице релиза 2.2.0](https://github.com/neonkitts/Probnyy-proekt-Unity/releases/tag/v2.2.0).
 
-Имя репозитория для адреса: `Probnyy-proekt-Unity`.
+Рекомендуемые темы репозитория: `unity`, `csharp`, `2d-platformer`, `pixel-art`, `procedural-generation`, `learning-project`. Можно закрепить игру на странице профиля.
 
-Описание:
-
-> Учебный 2D-платформер на Unity 6 / C#: инвертированное управление, процедурная карта, враги, качающиеся лозы, обучение, сохранения и настройки графики. Windows x64.
-
-Темы: `unity`, `csharp`, `2d-platformer`, `pixel-art`, `procedural-generation`, `learning-project`.
-
-Главная страница проекта подготовлена в `README.md`. Текст профиля — в `Portfolio/PROFILE_RU.md`, короткая биография — в `Portfolio/BIO.txt`.
-
-При публикации нужны исходники `Assets`, `Packages`, `ProjectSettings`, документы, `Tools` и скриншоты `Portfolio`. Не публиковать кэш `Library`, личные сохранения, настройки пользователя и временные файлы. Архив игры `Releases/FairyBeer-Windows.zip` содержит полный Windows-плеер без сохранений.
-
-Чтобы профиль показывал большой текст под биографией, используется отдельный публичный репозиторий с именем, совпадающим с логином GitHub, и файлом `README.md` из подготовленного текста профиля. Закрепить репозиторий игры в профиле.
+При публикации исходников нужны `Assets`, `Packages`, `ProjectSettings`, `Tools` и документация. Кэш `Library`, личные сохранения и временные файлы в репозиторий не добавляют. Готовая Windows-сборка распространяется отдельным архивом в Releases, а не по локальному пути в репозитории.
