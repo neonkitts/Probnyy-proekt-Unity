@@ -2,7 +2,7 @@
 
 Пиксельная игра для Windows x64: фея Лира преодолевает остров с **инвертированным управлением** и препятствиями, которые меняются при новой игре. Проект создан для изучения Unity и C#.
 
-[Скачать готовую сборку 2.2.0](https://github.com/neonkitts/Probnyy-proekt-Unity/releases/tag/v2.2.0) · [Посмотреть исходники](Assets/Scripts) · [Другие скриншоты](Portfolio) · [Профиль автора](https://github.com/neonkitts)
+[Скачать готовую сборку 2.2.0](https://github.com/neonkitts/Probnyy-proekt-Unity/releases/tag/v2.2.0) · [Описание механик](MECHANICS_RU.md) · [Посмотреть исходники](Assets/Scripts) · [Другие скриншоты](Portfolio) · [Профиль автора](https://github.com/neonkitts)
 
 ![Игровой процесс Fairy Beer](Portfolio/gameplay.png)
 
