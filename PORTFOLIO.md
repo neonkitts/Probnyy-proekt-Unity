@@ -1,15 +1,17 @@
-# Fairy Beer — portfolio snapshot
+# Fairy Beer · portfolio card
 
-An educational 2D platformer made with Unity 6 and C# for Windows x64. The fairy crosses a procedurally varied island with reversed movement controls.
+**Role focus:** game concept, rules, visual direction, iteration and review.  
+**Format:** educational 2D platformer · Unity 6 · Windows x64 · version 2.2.0.
 
-![Gameplay](Portfolio/gameplay.png)
+![Fairy Beer gameplay](Portfolio/gameplay.png)
 
-- [Download the Windows build (2.2.0)](https://github.com/neonkitts/Probnyy-proekt-Unity/releases/tag/v2.2.0)
-- [Read the current project overview and source guide](README.md)
-- [See more screenshots](Portfolio)
+**Design hook:** the fairy Lyra travels across a changing island with permanently reversed controls. The challenge is to learn the rule, read the next obstacle and act deliberately. A tutorial introduces the inputs; seeded layouts change repeated runs; checkpoints limit the cost of mistakes. An owl attacks the spot where the player waits too long.
 
-**Contribution:** Zlatoslava Manko defined the concept, gameplay and visual requirements, selected references and reviewed the result. Codex assisted with code implementation, checks and materials. This is a learning project, not independently developed commercial work.
+- [Download the Windows build](https://github.com/neonkitts/Probnyy-proekt-Unity/releases/tag/v2.2.0)
+- [Read the game design case study](DESIGN_CASE_RU.md)
+- [Read the current project overview](README.md)
+- [See screenshots](Portfolio)
 
-**Technical highlights:** seeded obstacle generation, fixed-step movement, inverted input, enemies, checkpoints, JSON saves and editor validation. The code is concentrated in [ChibiGame.cs](Assets/Scripts/ChibiGame.cs) and [ChibiPresentation.cs](Assets/Scripts/ChibiPresentation.cs); splitting these systems into smaller components is a next step.
+**Contribution:** Zlatoslava Manko defined the concept, gameplay and visual requirements, selected references, reviewed versions and gave feedback. Codex assisted with implementation, automated checks and materials. This is a learning project; the code is not presented as independently authored commercial work.
 
-The [validation log](QA/validation.txt) records automated checks over 100 seeds. The released Windows build was launched and an accelerated route to the ending was checked. A full manual playthrough and physical gamepad input still need testing.
+**Evidence and limits:** [QA/validation.txt](QA/validation.txt) records 113,936 automated checks across 100 seeds. The released Windows build was launched and an accelerated route to the ending was checked. A complete manual playthrough and physical gamepad test are still open.
